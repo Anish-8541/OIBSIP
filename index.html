@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="theme-toggle">
+    <button id="themeBtn">🌙</button>
+</div>
+
+<div class="container">
+    <h1>🌡 Temperature Converter</h1>
+
+    <div class="input-group">
+        <input type="number" id="temperature" placeholder="Enter Temperature">
+    </div>
+
+    <div class="selectors">
+        <select id="fromUnit">
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+        </select>
+
+        <span>➡</span>
+
+        <select id="toUnit">
+            <option value="F">Fahrenheit</option>
+            <option value="C">Celsius</option>
+            <option value="K">Kelvin</option>
+        </select>
+    </div>
+
+    <button class="convert-btn" onclick="convertTemp()">
+        Convert
+    </button>
+
+    <div id="result" class="result"></div>
+
+    <button class="copy-btn" onclick="copyResult()">
+        Copy Result
+    </button>
+
+    <div class="history-box">
+        <h3>Conversion History</h3>
+        <ul id="history"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
