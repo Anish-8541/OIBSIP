@@ -35,9 +35,3 @@ OIBSIP
 
 
 👨‍💻 Author -- Anish Kumar
-
-🎯 Internship Task
-
-Oasis Infobyte Web Development & Designing Internship
-
-Task: Temperature Converter Website
